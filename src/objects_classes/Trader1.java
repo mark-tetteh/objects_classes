@@ -1,4 +1,4 @@
-package o_c.objects_classes;
+package objects_classes;
 
 public class Trader1 {
     private String name ;

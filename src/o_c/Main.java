@@ -1,7 +1,9 @@
 package o_c;
 
-import o_c.objects_classes.Trade1;
-import o_c.objects_classes.Trader1;
+import objects_classes.BondTrades;
+import objects_classes.FundTrades;
+import objects_classes.Trade1;
+import objects_classes.Trader1;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,15 +12,10 @@ public class Main {
 //        Scanner scanner = new Scanner(System.in);
 //        int input = scanner.nextInt();
 //        System.out.println(input + " 8is your age");
-          Trade1 t1 = new Trade1("T1", "APPL", 100, 15.25);
-          Trade1 t2 = new Trade1("T1", "APPL", 10, 15.0);
-//
-          Trader1 T1 = new Trader1();
-//
-            T1.addTrade(t1);
-            T1.addTrade(t2);
-//
-          T1.displayAccount();
+
+        BondTrades fund = new BondTrades("F1", "fff", 10, 10.0, 5);
+        System.out.println(fund.toString());
+
 
         }
     }

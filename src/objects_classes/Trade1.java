@@ -1,6 +1,6 @@
-package o_c.objects_classes;
+package objects_classes;
 
-public class Trade1 {
+public abstract class Trade1 {
     private String ID;
     private String symbol;
     private int quantity;
@@ -35,13 +35,16 @@ public class Trade1 {
         this.price = price;
     }
 
+
+    public abstract void calcDividend();
+
     @Override
     public String toString() {
-        return "o_c.objects_classes.Trade1{" +
+        return "Trade1{" +
                 "ID='" + ID + '\'' +
                 ", symbol='" + symbol + '\'' +
                 ", quantity=" + quantity +
-                ", price=" + price +
-                '}';
+                ", price=" + price + " "
+                ;
     }
 }

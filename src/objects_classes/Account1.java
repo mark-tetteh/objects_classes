@@ -1,4 +1,4 @@
-package o_c.objects_classes;
+package objects_classes;
 
 public class Account1 {
     private double totalValuesOfTrades ;
@@ -9,6 +9,6 @@ public class Account1 {
     }
 
     public void setTotalValuesOfTrades(double totalValuesOfTrades) {
-        this.totalValuesOfTrades += totalValuesOfTrades;
+        this.totalValuesOfTrades = totalValuesOfTrades;
     }
 }
